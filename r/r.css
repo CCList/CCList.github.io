@@ -21,6 +21,12 @@ a:active {
 	text-decoration: underscore;
 }
 
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	text-align: center;
 	font-size: 2em;
@@ -30,12 +36,6 @@ body {
 	color: #fff;
 	background-color: #262626;
 	margin-top: 2%;
-}
-
-body,
-html {
-	margin: 0;
-	padding: 0;
 }
 
 div {
