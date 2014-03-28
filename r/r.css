@@ -1,21 +1,6 @@
-@viewport{
+@viewport {
 	width: device-width;
 	zoom: 1.0;
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	text-align: center;
-	font-size: 7.5vmin;
-	line-height: 7.5vmin;
-	color: #fff;
-	background-color: #262626;
-	margin-top: 2%;
 }
 
 small {
@@ -23,6 +8,34 @@ small {
 	margin-bottom: 3%;
 	color: #515151;
 	font-size: 60%;
+}
+
+a {
+	color: #a8a8a8;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #7d7d7d;
+	text-decoration: underscore;
+}
+
+body {
+	text-align: center;
+	font-size: 2em;
+	line-height: 1.67;
+	font-size: 7.5vmin !important;
+	line-height: 7.5vmin !important;
+	color: #fff;
+	background-color: #262626;
+	margin-top: 2%;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
 }
 
 div {
@@ -46,23 +59,27 @@ div a:active {
 	background-color: #fff;
 }
 
+#h {
+	position: static;
+	visibility: hidden;
+}
+
 li {
 	width: 50%;
 	float: left;
 	list-style-type: none;
 }
 
-a {
-	color: #a8a8a8;
-	text-decoration: none;
+@media (min-width: 43.75em) {
+	body {
+		font-size: 2.5em;
+		line-height: 1.5;
+	}
 }
 
-a:hover,
-a:active {
-	color: #7d7d7d;
-}
-
-#h {
-	position: static;
-	visibility: hidden;
+@media (min-width: 56.25em) {
+	body {
+		font-size: 3em;
+		line-height: 1.4;
+	}
 }
