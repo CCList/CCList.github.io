@@ -28,7 +28,7 @@ body {
 small {
 	display: block;
 	margin-bottom: 3%;
-	opacity: 0.2;
+	color: #515151;
 	font-size: 60%;
 }
 
@@ -53,8 +53,18 @@ div a:active {
 	background-color: #fff;
 }
 
-li{
+li {
 	width: 50%;
 	float: left;
 	list-style-type: none;
+}
+
+a {
+	color: #a8a8a8;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #7d7d7d;
 }
