@@ -2,15 +2,15 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	color: #fff;
-	font-family: "opendyslexic", sans-serif;
-	background-color: #262626;
 }
 
 body {
 	text-align: center;
-	font-size: 7vmin;
-	margin: 0 auto;
+	font-size: 7.5vmin;
+	line-height: 7.5vmin;
+	color: #fff;
+	font-family: "eulexia", sans-serif;
+	background-color: #262626;
 }
 
 small {
@@ -27,6 +27,7 @@ div {
 	right: 0;
 	left: 0;
 	font-size: 60%;
+	margin-bottom: 2%;
 	background-color: #1abc9c;
 }
 div a {
