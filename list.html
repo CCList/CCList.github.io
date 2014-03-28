@@ -3,10 +3,4 @@ title: List
 permalink: list/
 layout: container
 ---
-<ul>
-{% for page in site.pages %}
-	{% if page.layout == "country" %}
-		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-	{% endif %}
-{% endfor %}
-</ul>
+{% include list.html %}
