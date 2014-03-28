@@ -31,8 +31,7 @@ body {
 	text-align: center;
 	font-size: 2em;
 	line-height: 1.67;
-	font-size: 8.5vmin;
-	line-height: 8.5vmin;
+	line-height: 9vmin;
 	color: #fff;
 	background-color: #262626;
 	margin-top: 2%;
@@ -74,8 +73,7 @@ li {
 	body {
 		font-size: 2.5em;
 		line-height: 1.5;
-		font-size: 8.5vmin;
-		line-height: 8.5vmin;
+		line-height: 9vmin;
 	}
 }
 
@@ -83,7 +81,7 @@ li {
 	body {
 		font-size: 3em;
 		line-height: 1.4;
-		font-size: 7.5vmin;
-		line-height: 7.5vmin;
+		font-size: 7.5vmin !important;
+		line-height: 7.5vmin !important;
 	}
 }
