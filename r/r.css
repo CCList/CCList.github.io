@@ -64,9 +64,8 @@ div a:active {
 }
 
 li {
-	width: 50%;
+	min-width: 50%;
 	float: left;
-	list-style-type: none;
 }
 
 @media (min-width: 43.75em) {
