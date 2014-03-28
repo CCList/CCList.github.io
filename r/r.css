@@ -11,6 +11,7 @@ body {
 	color: #fff;
 	font-family: "eulexia", sans-serif;
 	background-color: #262626;
+	margin-top: 2%;
 }
 
 small {
@@ -27,7 +28,6 @@ div {
 	right: 0;
 	left: 0;
 	font-size: 60%;
-	margin-bottom: 2%;
 	background-color: #1abc9c;
 }
 div a {
