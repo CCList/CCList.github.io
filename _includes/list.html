@@ -1,7 +1,6 @@
-<ul>
 {% for page in site.pages %}
 	{% if page.layout == "country" %}
-		<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+		{{ page.nativeName }}
+		<small>{{ page.country }} - {{ page.countryCode }}</small>
 	{% endif %}
 {% endfor %}
-</ul>
