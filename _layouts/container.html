@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>
-			{% if page.layout == "country" %}
+			{% if page.nativeName and page.country %}
 				{{ page.nativeName }} / {{ page.country }}
 			{% else %}
 				{{ page.title }}
