@@ -1,0 +1,6 @@
+<style>
+{% include css/global.html %}
+{% for style in include.css %}
+	{% include css/{{ style }}.html %}
+{% endfor %}
+</style>
