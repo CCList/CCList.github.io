@@ -1,0 +1,5 @@
+{% include css/global.css %}
+{% include css/headerNotice.css %}
+span {
+	color: #ecf0f1
+}
