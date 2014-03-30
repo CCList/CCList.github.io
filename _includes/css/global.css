@@ -3,11 +3,9 @@
 	zoom: 1.0
 }
 
-small {
-	display: block;
-	margin-bottom: 3%;
-	color: #515151;
-	font-size: 60%
+h3 {
+	margin: 3% 0 0;
+	font-size: 160%;
 }
 
 body,
@@ -21,7 +19,5 @@ html {
 }
 
 div {
-	font-size: 60%;
 	background-color: #551A8B;
-	margin-bottom: 3%
 }

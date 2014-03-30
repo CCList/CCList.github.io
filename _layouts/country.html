@@ -6,6 +6,6 @@ layout: container
 	<a href="/list/">I don't live here!</a>
 </div>
 {% for number in page.numbers %}
-	{{ number.number }}
-	<small>{{ number.description }}</small>
+	<h3>{{ number.number }}</h3>
+	{{ number.description }}
 {% endfor %}
